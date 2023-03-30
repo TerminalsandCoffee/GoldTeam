@@ -1,6 +1,6 @@
-from random import choice
+import random 
 import string
-import sys
+
 
 def string_generator(size=6, string=string.ascii_letters + string.digits):
     return ''.join(choice(string) for _ in range(size))
