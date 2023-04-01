@@ -35,7 +35,7 @@ func generateUniqueNames() {
             if err == nil {
                 break
             }
-            fmt.Println("Sorry, the input must be a number. Please try again.")
+            fmt.Println("Sorry, the input must be a numeric value. Please try again.")
         }
 
         // Generate unique names for each instance
