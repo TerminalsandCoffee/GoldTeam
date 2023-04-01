@@ -10,9 +10,6 @@ while True:
     except ValueError:
         print("Sorry, the input must be a number. Please try again.")
 
-# continue with the rest of your code using num_of_instances
-
-
 #input name of department
 dept_name = input("Enter the name of your department: ")
 
@@ -23,3 +20,5 @@ for i in range(num_of_instances):
 #concatenate
   unique_name = dept_name + "-" + random_string
   print(unique_name)
+  
+  
