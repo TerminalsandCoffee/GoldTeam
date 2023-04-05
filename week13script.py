@@ -32,4 +32,4 @@ for file_name in os.listdir(cwd):
     
 #print list of dict
 for file_info in file_list:
-    print(file_info)
+    print(file_info, sep="\n")
