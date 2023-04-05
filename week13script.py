@@ -31,5 +31,5 @@ for file_name in os.listdir(cwd):
     file_list.append(file_info)
     
 #print list of dict
-for file_info in file_list:
+#for file_info in file_list: > you can comment this out if you have more than one dict
     print(file_info, sep="\n")
