@@ -41,3 +41,4 @@ def get_file_info_dict(path=os.getcwd()):
 file_info_dict = get_file_info_dict()
 
 
+#updated code

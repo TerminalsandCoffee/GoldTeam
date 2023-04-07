@@ -43,3 +43,5 @@ def get_file_info_list(path=os.getcwd()):
 file_info_list = get_file_info_list()
 
 
+
+#updated code
