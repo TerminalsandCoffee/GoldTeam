@@ -38,10 +38,10 @@ def get_file_info_list(path=os.getcwd()):
     # Return the list of file info dictionaries
     return file_info_list
     
-    
 # Call the function with the default argument (current working directory)
 file_info_list = get_file_info_list()
 
-
-
-#updated code
+# Print the file info dictionaries
+for file_info in file_info_list:
+    print(file_info, '\n')
+    

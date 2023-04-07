@@ -36,9 +36,6 @@ def get_file_info_dict(path=os.getcwd()):
     # Return the dictionary of file info dictionaries
     return file_info_dict
 
-
-# Call the function with the default argument (current working directory)
 file_info_dict = get_file_info_dict()
-
-
-#updated code
+for key, value in file_info_dict.items():
+    print(key, value, sep=": ")
