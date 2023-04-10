@@ -1,5 +1,5 @@
 """
-This is a Python script using the Boto3 library that will stop three EC2 instances:
+This is a Python script using the Boto3 library that will stop EC2 instances
 """
 
 import boto3
