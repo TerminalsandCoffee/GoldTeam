@@ -46,3 +46,5 @@ ec2_client = boto3.client('ec2', region_name=region)
 ec2_client.start_instances(InstanceIds=instance_ids)
 
 print('Started instances: ' + ', '.join(instance_ids))
+
+
