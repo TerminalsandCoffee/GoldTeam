@@ -1,6 +1,3 @@
-"""
-Your module description
-"""
 import boto3
 
 # Specify the region where you want to launch the instances
