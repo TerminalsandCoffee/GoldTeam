@@ -22,3 +22,5 @@ for reservation in instances['Reservations']:
     for instance in reservation['Instances']:
         print(f"Stopping instance {instance['InstanceId']}")
         ec2.stop_instances(InstanceIds=[instance['InstanceId']])
+
+
