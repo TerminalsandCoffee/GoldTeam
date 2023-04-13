@@ -1,10 +1,10 @@
 """
-This is a Python script using the Boto3 library that will stop EC2 instances
+This is a Python script that uses the Boto3 library to locate and stop EC2 instances.
 """
 
 import boto3
 
-# Create an EC2 client
+# Create an EC2 client object
 ec2 = boto3.client('ec2')
 
 # Get all running instances
@@ -22,5 +22,10 @@ for reservation in instances['Reservations']:
     for instance in reservation['Instances']:
         print(f"Stopping instance {instance['InstanceId']}")
         ec2.stop_instances(InstanceIds=[instance['InstanceId']])
+
+
+
+
+
 
 
