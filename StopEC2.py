@@ -13,6 +13,10 @@ instances = ec2.describe_instances(
         {
             'Name': 'instance-state-name',
             'Values': ['running']
+        },
+        {
+            'Name': 'tag:Environment',
+            'Values': ['Dev']
         }
     ]
 )
