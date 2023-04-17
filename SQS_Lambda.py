@@ -18,3 +18,5 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps(date_time)
     }
+
+#made change to the above code.
