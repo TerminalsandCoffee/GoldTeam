@@ -1,5 +1,6 @@
 import boto3
 
+
 #service resource
 sqs = boto3.resource('sqs', region_name='us-east-1')
 
